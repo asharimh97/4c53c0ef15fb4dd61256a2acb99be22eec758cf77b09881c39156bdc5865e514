@@ -18,11 +18,25 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@/pages/*": ["./pages/*"],
-      "@/components/*": ["./components/*"],
-      "@/styles/*": ["./styles/*"],
-      "@/utils/*": ["./utils/*"]
-    }
+      "@/pages/*": [
+        "./pages/*"
+      ],
+      "@/components/*": [
+        "./components/*"
+      ],
+      "@/styles/*": [
+        "./styles/*"
+      ],
+      "@/utils/*": [
+        "./utils/*"
+      ]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "strictNullChecks": true
   },
   "include": [
     "next-env.d.ts",
@@ -30,6 +44,7 @@
     "**/*.tsx",
     "**/*.js",
     "**/*.jsx",
+    ".next/types/**/*.ts"
   ],
   "exclude": [
     "node_modules",

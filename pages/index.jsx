@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { Button } from "@tigasorei/ant";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -62,6 +63,7 @@ export default function Home() {
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
+      <Button>Hehe</Button>
     </div>
   );
 }
