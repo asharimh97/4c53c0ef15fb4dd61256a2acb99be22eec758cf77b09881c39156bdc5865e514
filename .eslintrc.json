@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "next/core-web-vitals", 
+    "airbnb",
+    "airbnb-typescript",
+    "airbnb/hooks",
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "ignorePatterns": [], // if you want to ignore some files
+  "parser": "@typescript-eslint/parser",
+	"parserOptions": { // parserOptions only used when configuring TS based project
+    "project": "./tsconfig.json",
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-props-no-spreading": "warn"
+  }
+}
