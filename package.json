@@ -5,8 +5,16 @@
     "build": "next build"
   },
   "dependencies": {
+    "@monaco-editor/react": "^4.6.0",
+    "@xterm/xterm": "^5.5.0",
     "next": "latest",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.12",
+    "@types/react": "18.3.3",
+    "typescript": "5.5.4"
   }
 }
