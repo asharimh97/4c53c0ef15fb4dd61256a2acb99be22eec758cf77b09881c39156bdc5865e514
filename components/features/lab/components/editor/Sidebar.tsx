@@ -6,7 +6,7 @@ function Sidebar({ children }: { children: ReactNode }) {
     <Flex
       flexDirection="column"
       w="200px"
-      h="100vh"
+      h="100%"
       pt="3px"
       border="solid 1px #242424"
     >
