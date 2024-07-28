@@ -11,8 +11,13 @@
     "@tigasorei/ant": "^0.0.1-alpha.3",
     "@xterm/xterm": "^5.5.0",
     "next": "latest",
+    "raw-loader": "^4.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^5.2.1",
+    "react-markdown": "^9.0.1",
+    "rehype-raw": "^7.0.0",
+    "remark-gfm": "^4.0.0",
     "styled-components": "^6.1.12"
   },
   "devDependencies": {
